@@ -532,7 +532,7 @@ NoConn ~ 2675 2400
 NoConn ~ 2675 2600
 Text Notes 9850 1350 0    60   ~ 0
 Ethernet Connector (RJ45)
-Text Notes 7575 1250 0    60   ~ 0
+Text Notes 7050 1125 0    60   ~ 0
 Full Duplex Circuit
 $Comp
 L R R?
@@ -858,12 +858,6 @@ Wire Wire Line
 Connection ~ 8575 2200
 Wire Notes Line
 	9700 1050 9700 3350
-Wire Notes Line
-	9375 1050 9375 3375
-Wire Notes Line
-	9375 3375 6525 3375
-Wire Notes Line
-	6525 1050 9375 1050
 Text Notes 8650 4125 0    60   ~ 0
 Half Duplex Circuit
 Wire Notes Line
@@ -1031,4 +1025,12 @@ Wire Wire Line
 Connection ~ 9200 4400
 Text Notes 1025 2525 0    60   ~ 0
 Piano Switch
+Wire Notes Line
+	9150 750  9150 3375
+Wire Notes Line
+	9150 3375 6150 3375
+Wire Notes Line
+	6150 3375 6150 750 
+Wire Notes Line
+	6150 750  9150 750 
 $EndSCHEMATC
