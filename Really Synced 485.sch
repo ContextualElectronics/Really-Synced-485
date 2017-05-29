@@ -82,17 +82,6 @@ F 3 "" H 4775 1800 50  0001 C CNN
 $EndComp
 $Comp
 L GND #PWR?
-U 1 1 592B9AE4
-P 6775 2450
-F 0 "#PWR?" H 6775 2200 50  0001 C CNN
-F 1 "GND" H 6775 2300 50  0000 C CNN
-F 2 "" H 6775 2450 50  0001 C CNN
-F 3 "" H 6775 2450 50  0001 C CNN
-	1    6775 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR?
 U 1 1 592B9C1B
 P 2425 2950
 F 0 "#PWR?" H 2425 2700 50  0001 C CNN
@@ -442,12 +431,12 @@ $EndComp
 $Comp
 L +5V #PWR?
 U 1 1 592CCFBB
-P 9200 4775
-F 0 "#PWR?" H 9200 4625 50  0001 C CNN
-F 1 "+5V" H 9200 4915 50  0000 C CNN
-F 2 "" H 9200 4775 50  0001 C CNN
-F 3 "" H 9200 4775 50  0001 C CNN
-	1    9200 4775
+P 9200 4375
+F 0 "#PWR?" H 9200 4225 50  0001 C CNN
+F 1 "+5V" H 9200 4515 50  0000 C CNN
+F 2 "" H 9200 4375 50  0001 C CNN
+F 3 "" H 9200 4375 50  0001 C CNN
+	1    9200 4375
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -543,7 +532,7 @@ NoConn ~ 2675 2400
 NoConn ~ 2675 2600
 Text Notes 9850 1350 0    60   ~ 0
 Ethernet Connector (RJ45)
-Text Notes 7575 1250 0    60   ~ 0
+Text Notes 7050 1125 0    60   ~ 0
 Full Duplex Circuit
 $Comp
 L R R?
@@ -642,7 +631,7 @@ Wire Wire Line
 Wire Wire Line
 	4775 1800 4675 1800
 Wire Wire Line
-	6975 2450 6775 2450
+	6400 2450 6975 2450
 Wire Wire Line
 	2425 2950 2425 2800
 Wire Wire Line
@@ -747,7 +736,7 @@ Wire Notes Line
 Wire Notes Line
 	2275 750  2275 825 
 Wire Wire Line
-	9200 4775 9200 4875
+	9200 4375 9200 4875
 Wire Wire Line
 	9200 4875 9100 4875
 Wire Wire Line
@@ -869,14 +858,6 @@ Wire Wire Line
 Connection ~ 8575 2200
 Wire Notes Line
 	9700 1050 9700 3350
-Wire Notes Line
-	9375 1050 9375 3375
-Wire Notes Line
-	9375 3375 6525 3375
-Wire Notes Line
-	6525 3375 6525 1050
-Wire Notes Line
-	6525 1050 9375 1050
 Text Notes 8650 4125 0    60   ~ 0
 Half Duplex Circuit
 Wire Notes Line
@@ -975,4 +956,81 @@ Text Notes 5275 4325 0    60   ~ 0
 STATUS1
 Text Notes 5700 4325 0    60   ~ 0
 STATUS2
+Wire Notes Line
+	4350 4100 4350 6900
+Wire Notes Line
+	4350 6900 850  6900
+Wire Notes Line
+	850  4100 4350 4100
+Wire Notes Line
+	850  6900 850  4100
+$Comp
+L C C?
+U 1 1 592EAC9B
+P 6425 2175
+F 0 "C?" H 6450 2275 50  0000 L CNN
+F 1 ".1U" H 6450 2075 50  0000 L CNN
+F 2 "" H 6463 2025 50  0001 C CNN
+F 3 "" H 6425 2175 50  0001 C CNN
+	1    6425 2175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 2025 6425 1900
+Wire Wire Line
+	6425 1900 6650 1900
+Connection ~ 6650 1900
+Wire Wire Line
+	6425 2325 6425 2450
+Connection ~ 6425 2450
+$Comp
+L GND #PWR?
+U 1 1 592EB45E
+P 6400 2450
+F 0 "#PWR?" H 6400 2200 50  0001 C CNN
+F 1 "GND" H 6400 2300 50  0000 C CNN
+F 2 "" H 6400 2450 50  0001 C CNN
+F 3 "" H 6400 2450 50  0001 C CNN
+	1    6400 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 592EBB05
+P 9375 4600
+F 0 "C?" H 9400 4700 50  0000 L CNN
+F 1 ".1U" H 9400 4500 50  0000 L CNN
+F 2 "" H 9413 4450 50  0001 C CNN
+F 3 "" H 9375 4600 50  0001 C CNN
+	1    9375 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 592EC2B7
+P 9375 4800
+F 0 "#PWR?" H 9375 4550 50  0001 C CNN
+F 1 "GND" H 9375 4650 50  0000 C CNN
+F 2 "" H 9375 4800 50  0001 C CNN
+F 3 "" H 9375 4800 50  0001 C CNN
+	1    9375 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9375 4800 9375 4750
+Wire Wire Line
+	9375 4450 9375 4400
+Wire Wire Line
+	9375 4400 9200 4400
+Connection ~ 9200 4400
+Text Notes 1025 2525 0    60   ~ 0
+Piano Switch
+Wire Notes Line
+	9150 750  9150 3375
+Wire Notes Line
+	9150 3375 6150 3375
+Wire Notes Line
+	6150 3375 6150 750 
+Wire Notes Line
+	6150 750  9150 750 
 $EndSCHEMATC
