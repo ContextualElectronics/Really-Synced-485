@@ -278,4 +278,369 @@ Text Notes 5775 6600 0    60   ~ 0
 TX
 Text Notes 6100 6600 0    60   ~ 0
 RX
+Wire Wire Line
+	6850 2300 7525 2300
+$Comp
+L R R?
+U 1 1 592BC3E2
+P 6700 2300
+F 0 "R?" V 6780 2300 50  0000 C CNN
+F 1 "0" V 6700 2300 50  0000 C CNN
+F 2 "" V 6630 2300 50  0001 C CNN
+F 3 "" H 6700 2300 50  0001 C CNN
+	1    6700 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 2300 6550 2300
+$Comp
+L R R?
+U 1 1 592BC4C7
+P 6700 2150
+F 0 "R?" V 6780 2150 50  0000 C CNN
+F 1 "0" V 6700 2150 50  0000 C CNN
+F 2 "" V 6630 2150 50  0001 C CNN
+F 3 "" H 6700 2150 50  0001 C CNN
+	1    6700 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 2150 7525 2150
+Wire Wire Line
+	6550 2150 6300 2150
+Text Label 6300 2150 0    60   ~ 0
+RX
+Text Label 6300 2300 0    60   ~ 0
+TX
+Text Label 5075 3025 0    60   ~ 0
+TX
+Text Label 3075 3025 2    60   ~ 0
+RX
+$Comp
+L R R?
+U 1 1 592BD2F1
+P 9350 2575
+F 0 "R?" V 9430 2575 50  0000 C CNN
+F 1 "120" V 9350 2575 50  0000 C CNN
+F 2 "" V 9280 2575 50  0001 C CNN
+F 3 "" H 9350 2575 50  0001 C CNN
+	1    9350 2575
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8575 2300 9350 2300
+Wire Wire Line
+	9350 2300 9800 2300
+Wire Wire Line
+	9350 2300 9350 2425
+Wire Wire Line
+	8575 2450 9025 2450
+Wire Wire Line
+	9025 2450 9025 2850
+Wire Wire Line
+	9025 2850 9350 2850
+Wire Wire Line
+	9350 2850 9575 2850
+Wire Wire Line
+	9350 2850 9350 2725
+$Comp
+L R R?
+U 1 1 592BD5DA
+P 9350 1825
+F 0 "R?" V 9430 1825 50  0000 C CNN
+F 1 "120" V 9350 1825 50  0000 C CNN
+F 2 "" V 9280 1825 50  0001 C CNN
+F 3 "" H 9350 1825 50  0001 C CNN
+	1    9350 1825
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9350 1975 9350 2150
+Wire Wire Line
+	8575 2150 9350 2150
+Wire Wire Line
+	9350 2150 9575 2150
+Wire Wire Line
+	8575 2000 9075 2000
+Wire Wire Line
+	9075 2000 9075 1475
+Wire Wire Line
+	9075 1475 9350 1475
+Wire Wire Line
+	9350 1475 9800 1475
+Wire Wire Line
+	9350 1475 9350 1675
+Text Notes 1925 675  0    60   ~ 0
+Address System
+$Comp
+L CONN_02X04 J?
+U 1 1 592BE89C
+P 1300 3525
+F 0 "J?" H 1300 3775 50  0000 C CNN
+F 1 "CONN_02X04" H 1300 3275 50  0000 C CNN
+F 2 "" H 1300 2325 50  0001 C CNN
+F 3 "" H 1300 2325 50  0001 C CNN
+F 4 "195-4MST" H 1300 3525 60  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/cts-electrocomponents/195-4MST/CT1954MST-ND/61478" H 1300 3525 60  0001 C CNN "Link"
+	1    1300 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 592BEA4D
+P 850 4450
+F 0 "#PWR?" H 850 4200 50  0001 C CNN
+F 1 "GND" H 850 4300 50  0000 C CNN
+F 2 "" H 850 4450 50  0001 C CNN
+F 3 "" H 850 4450 50  0001 C CNN
+	1    850  4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  3375 850  3475
+Wire Wire Line
+	850  3475 850  3575
+Wire Wire Line
+	850  3575 850  3675
+Wire Wire Line
+	850  3675 850  4450
+Wire Wire Line
+	850  3375 1050 3375
+Wire Wire Line
+	850  3475 1050 3475
+Connection ~ 850  3475
+Wire Wire Line
+	850  3575 1050 3575
+Connection ~ 850  3575
+Wire Wire Line
+	850  3675 1050 3675
+Connection ~ 850  3675
+$Comp
+L R R?
+U 1 1 592BEDC1
+P 1950 2975
+F 0 "R?" V 2030 2975 50  0000 C CNN
+F 1 "5K" V 1950 2975 50  0000 C CNN
+F 2 "" V 1880 2975 50  0001 C CNN
+F 3 "" H 1950 2975 50  0001 C CNN
+	1    1950 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 592BF77A
+P 1775 2975
+F 0 "R?" V 1855 2975 50  0000 C CNN
+F 1 "5K" V 1775 2975 50  0000 C CNN
+F 2 "" V 1705 2975 50  0001 C CNN
+F 3 "" H 1775 2975 50  0001 C CNN
+	1    1775 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 592BF9A5
+P 2125 2975
+F 0 "R?" V 2205 2975 50  0000 C CNN
+F 1 "5K" V 2125 2975 50  0000 C CNN
+F 2 "" V 2055 2975 50  0001 C CNN
+F 3 "" H 2125 2975 50  0001 C CNN
+	1    2125 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 592BF9F5
+P 2300 2975
+F 0 "R?" V 2380 2975 50  0000 C CNN
+F 1 "5K" V 2300 2975 50  0000 C CNN
+F 2 "" V 2230 2975 50  0001 C CNN
+F 3 "" H 2300 2975 50  0001 C CNN
+	1    2300 2975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2425 2300 2825
+Wire Wire Line
+	1775 2425 1950 2425
+Wire Wire Line
+	1950 2425 2125 2425
+Wire Wire Line
+	2125 2425 2300 2425
+Wire Wire Line
+	2300 2425 3075 2425
+Wire Wire Line
+	2125 2825 2125 2425
+Connection ~ 2300 2425
+Wire Wire Line
+	1950 2825 1950 2425
+Connection ~ 2125 2425
+Wire Wire Line
+	1775 2825 1775 2425
+Connection ~ 1950 2425
+Wire Wire Line
+	1550 3375 1775 3375
+Wire Wire Line
+	1775 3375 1775 3125
+Wire Wire Line
+	1550 3475 1950 3475
+Wire Wire Line
+	1950 3475 1950 3125
+Wire Wire Line
+	1550 3575 2125 3575
+Wire Wire Line
+	2125 3575 2125 3125
+Wire Wire Line
+	1550 3675 2300 3675
+Wire Wire Line
+	2300 3675 2300 3125
+Text Label 1625 3375 0    60   ~ 0
+ADDR0
+Text Label 1625 3475 0    60   ~ 0
+ADDR1
+Text Label 1625 3575 0    60   ~ 0
+ADDR2
+Text Label 1625 3675 0    60   ~ 0
+ADDR3
+Text Label 3075 2625 2    60   ~ 0
+ADDR0
+Text Label 5075 2625 0    60   ~ 0
+ADDR1
+Text Label 3075 2825 2    60   ~ 0
+ADDR2
+Text Label 5075 2825 0    60   ~ 0
+ADDR3
+$Comp
+L CONN_02X04 J?
+U 1 1 592C22CF
+P 10725 2200
+F 0 "J?" H 10725 2450 50  0000 C CNN
+F 1 "CONN_02X04" H 10725 1950 50  0000 C CNN
+F 2 "" H 10725 1000 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/c-bmj-0102.pdf" H 10725 1000 50  0001 C CNN
+F 4 "54602-908LF" H 10725 2200 60  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/amphenol-fci/54602-908LF/609-1046-ND/1001360" H 10725 2200 60  0001 C CNN "Link"
+	1    10725 2200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	10475 2050 9800 2050
+Wire Wire Line
+	9800 2050 9800 1475
+Connection ~ 9350 1475
+Connection ~ 9350 2150
+Text Label 9575 2150 0    60   ~ 0
+B
+Text Label 10975 2050 0    60   ~ 0
+B
+Connection ~ 9350 2850
+Text Label 9575 2850 0    60   ~ 0
+Y
+Text Label 10975 2150 0    60   ~ 0
+Y
+Wire Wire Line
+	9800 2300 9800 2150
+Wire Wire Line
+	9800 2150 10475 2150
+Connection ~ 9350 2300
+$Comp
+L R R?
+U 1 1 592C355F
+P 10200 3000
+F 0 "R?" V 10280 3000 50  0000 C CNN
+F 1 "0" V 10200 3000 50  0000 C CNN
+F 2 "" V 10130 3000 50  0001 C CNN
+F 3 "" H 10200 3000 50  0001 C CNN
+	1    10200 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 592C3600
+P 10375 3000
+F 0 "R?" V 10455 3000 50  0000 C CNN
+F 1 "0" V 10375 3000 50  0000 C CNN
+F 2 "" V 10305 3000 50  0001 C CNN
+F 3 "" H 10375 3000 50  0001 C CNN
+	1    10375 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 592C3674
+P 10550 3000
+F 0 "R?" V 10630 3000 50  0000 C CNN
+F 1 "0" V 10550 3000 50  0000 C CNN
+F 2 "" V 10480 3000 50  0001 C CNN
+F 3 "" H 10550 3000 50  0001 C CNN
+	1    10550 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 592C36DF
+P 10725 3000
+F 0 "R?" V 10805 3000 50  0000 C CNN
+F 1 "0" V 10725 3000 50  0000 C CNN
+F 2 "" V 10655 3000 50  0001 C CNN
+F 3 "" H 10725 3000 50  0001 C CNN
+	1    10725 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10975 2350 11000 2350
+Wire Wire Line
+	11000 2350 11000 2750
+Wire Wire Line
+	11000 2750 10550 2750
+Wire Wire Line
+	10550 2750 10550 2850
+Wire Wire Line
+	10975 2250 11075 2250
+Wire Wire Line
+	11075 2250 11075 2825
+Wire Wire Line
+	11075 2825 10725 2825
+Wire Wire Line
+	10725 2825 10725 2850
+Wire Wire Line
+	10475 2350 10375 2350
+Wire Wire Line
+	10375 2350 10375 2850
+Wire Wire Line
+	10200 2850 10200 2250
+Wire Wire Line
+	10200 2250 10475 2250
+Wire Wire Line
+	10725 3150 10725 3350
+Wire Wire Line
+	10725 3350 10550 3350
+Wire Wire Line
+	10550 3350 10450 3350
+Wire Wire Line
+	10450 3350 10375 3350
+Wire Wire Line
+	10375 3350 10200 3350
+Wire Wire Line
+	10200 3350 10200 3150
+$Comp
+L GND #PWR?
+U 1 1 592C3E24
+P 10450 3500
+F 0 "#PWR?" H 10450 3250 50  0001 C CNN
+F 1 "GND" H 10450 3350 50  0000 C CNN
+F 2 "" H 10450 3500 50  0001 C CNN
+F 3 "" H 10450 3500 50  0001 C CNN
+	1    10450 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 3500 10450 3350
+Connection ~ 10450 3350
+Wire Wire Line
+	10375 3150 10375 3350
+Connection ~ 10375 3350
+Wire Wire Line
+	10550 3150 10550 3350
+Connection ~ 10550 3350
 $EndSCHEMATC
