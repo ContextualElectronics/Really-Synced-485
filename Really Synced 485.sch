@@ -1,1 +1,281 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ce_header
+LIBS:ReallySynced
+LIBS:Really Synced 485-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CE_HEADER U?
+U 1 1 592B9005
+P 4075 3225
+F 0 "U?" H 4075 3225 60  0000 C CNN
+F 1 "CE_HEADER" H 4075 4475 60  0000 C CNN
+F 2 "" H 4075 3225 60  0001 C CNN
+F 3 "" H 4075 3225 60  0001 C CNN
+	1    4075 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN75179B U?
+U 1 1 592B9472
+P 8075 2200
+F 0 "U?" H 8075 1800 60  0000 C CNN
+F 1 "SN75179B" H 8075 2600 60  0000 C CNN
+F 2 "" H 8025 2100 60  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/texas-instruments/SN75179BDR/296-14956-1-ND/562532" H 8025 2100 60  0001 C CNN
+F 4 "SN75179BDR" H 8075 2200 60  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/texas-instruments/SN75179BDR/296-14956-1-ND/562532" H 8075 2200 60  0001 C CNN "Link"
+	1    8075 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 3425 5975 3425
+$Comp
+L GND #PWR?
+U 1 1 592B9AB1
+P 5175 3225
+F 0 "#PWR?" H 5175 2975 50  0001 C CNN
+F 1 "GND" H 5175 3075 50  0000 C CNN
+F 2 "" H 5175 3225 50  0001 C CNN
+F 3 "" H 5175 3225 50  0001 C CNN
+	1    5175 3225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5175 3225 5075 3225
+$Comp
+L GND #PWR?
+U 1 1 592B9AE4
+P 7325 2450
+F 0 "#PWR?" H 7325 2200 50  0001 C CNN
+F 1 "GND" H 7325 2300 50  0000 C CNN
+F 2 "" H 7325 2450 50  0001 C CNN
+F 3 "" H 7325 2450 50  0001 C CNN
+	1    7325 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7525 2450 7325 2450
+$Comp
+L GND #PWR?
+U 1 1 592B9C1B
+P 2825 4375
+F 0 "#PWR?" H 2825 4125 50  0001 C CNN
+F 1 "GND" H 2825 4225 50  0000 C CNN
+F 2 "" H 2825 4375 50  0001 C CNN
+F 3 "" H 2825 4375 50  0001 C CNN
+	1    2825 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 4375 2825 4225
+Wire Wire Line
+	2825 4225 3075 4225
+$Comp
+L +5V #PWR?
+U 1 1 592B9E69
+P 5975 3250
+F 0 "#PWR?" H 5975 3100 50  0001 C CNN
+F 1 "+5V" H 5975 3390 50  0000 C CNN
+F 2 "" H 5975 3250 50  0001 C CNN
+F 3 "" H 5975 3250 50  0001 C CNN
+	1    5975 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5975 3425 5975 3250
+$Comp
+L +5V #PWR?
+U 1 1 592B9E9A
+P 7200 1800
+F 0 "#PWR?" H 7200 1650 50  0001 C CNN
+F 1 "+5V" H 7200 1940 50  0000 C CNN
+F 2 "" H 7200 1800 50  0001 C CNN
+F 3 "" H 7200 1800 50  0001 C CNN
+	1    7200 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1800 7200 2000
+Wire Wire Line
+	7200 2000 7525 2000
+$Comp
+L LED D?
+U 1 1 592BA0D5
+P 5475 5475
+F 0 "D?" H 5475 5575 50  0000 C CNN
+F 1 "LED" H 5475 5375 50  0000 C CNN
+F 2 "" H 5475 5475 50  0001 C CNN
+F 3 "" H 5475 5475 50  0001 C CNN
+	1    5475 5475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 592BA1BB
+P 5475 5200
+F 0 "#PWR?" H 5475 5050 50  0001 C CNN
+F 1 "+5V" H 5475 5340 50  0000 C CNN
+F 2 "" H 5475 5200 50  0001 C CNN
+F 3 "" H 5475 5200 50  0001 C CNN
+	1    5475 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 592BA21D
+P 5475 5925
+F 0 "R?" V 5555 5925 50  0000 C CNN
+F 1 "220" V 5475 5925 50  0000 C CNN
+F 2 "" V 5405 5925 50  0001 C CNN
+F 3 "" H 5475 5925 50  0001 C CNN
+	1    5475 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 592BA287
+P 5475 6225
+F 0 "#PWR?" H 5475 5975 50  0001 C CNN
+F 1 "GND" H 5475 6075 50  0000 C CNN
+F 2 "" H 5475 6225 50  0001 C CNN
+F 3 "" H 5475 6225 50  0001 C CNN
+	1    5475 6225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5475 6225 5475 6075
+Wire Wire Line
+	5475 5775 5475 5625
+Wire Wire Line
+	5475 5325 5475 5200
+$Comp
+L LED D?
+U 1 1 592BA9B9
+P 5825 5475
+F 0 "D?" H 5825 5575 50  0000 C CNN
+F 1 "LED" H 5825 5375 50  0000 C CNN
+F 2 "" H 5825 5475 50  0001 C CNN
+F 3 "" H 5825 5475 50  0001 C CNN
+	1    5825 5475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 592BA9BF
+P 5825 5925
+F 0 "R?" V 5905 5925 50  0000 C CNN
+F 1 "220" V 5825 5925 50  0000 C CNN
+F 2 "" V 5755 5925 50  0001 C CNN
+F 3 "" H 5825 5925 50  0001 C CNN
+	1    5825 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 592BA9C5
+P 5825 6225
+F 0 "#PWR?" H 5825 5975 50  0001 C CNN
+F 1 "GND" H 5825 6075 50  0000 C CNN
+F 2 "" H 5825 6225 50  0001 C CNN
+F 3 "" H 5825 6225 50  0001 C CNN
+	1    5825 6225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 6225 5825 6075
+Wire Wire Line
+	5825 5775 5825 5625
+$Comp
+L LED D?
+U 1 1 592BABA7
+P 6150 5450
+F 0 "D?" H 6150 5550 50  0000 C CNN
+F 1 "LED" H 6150 5350 50  0000 C CNN
+F 2 "" H 6150 5450 50  0001 C CNN
+F 3 "" H 6150 5450 50  0001 C CNN
+	1    6150 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 592BABAD
+P 6150 5900
+F 0 "R?" V 6230 5900 50  0000 C CNN
+F 1 "220" V 6150 5900 50  0000 C CNN
+F 2 "" V 6080 5900 50  0001 C CNN
+F 3 "" H 6150 5900 50  0001 C CNN
+	1    6150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 592BABB3
+P 6150 6200
+F 0 "#PWR?" H 6150 5950 50  0001 C CNN
+F 1 "GND" H 6150 6050 50  0000 C CNN
+F 2 "" H 6150 6200 50  0001 C CNN
+F 3 "" H 6150 6200 50  0001 C CNN
+	1    6150 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 6200 6150 6050
+Wire Wire Line
+	6150 5750 6150 5600
+Wire Wire Line
+	5075 4025 5825 4025
+Wire Wire Line
+	5825 4025 5825 5325
+Wire Wire Line
+	5075 3825 6150 3825
+Wire Wire Line
+	6150 3825 6150 5300
+Text Notes 5375 6600 0    60   ~ 0
+PWR
+Text Notes 5775 6600 0    60   ~ 0
+TX
+Text Notes 6100 6600 0    60   ~ 0
+RX
+$EndSCHEMATC
