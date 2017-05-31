@@ -392,6 +392,8 @@ F 0 "U3" H 8600 4675 60  0000 C CNN
 F 1 "SN65HVD82" H 8600 5475 60  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 8550 4975 60  0001 C CNN
 F 3 "" H 8550 4975 60  0001 C CNN
+F 4 "SN65HVD82DR" H 8600 5075 60  0001 C CNN "MPN"
+F 5 "http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=229385765&uq=636318288619921391" H 8600 5075 60  0001 C CNN "Link"
 	1    8600 5075
 	1    0    0    -1  
 $EndComp
